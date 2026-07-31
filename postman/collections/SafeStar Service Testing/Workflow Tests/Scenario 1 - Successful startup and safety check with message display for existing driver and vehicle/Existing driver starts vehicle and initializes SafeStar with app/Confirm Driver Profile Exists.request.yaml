@@ -42,7 +42,7 @@ scripts:
               required: ["firstName", "lastName", "license", "email"],
               properties: {
                 firstName: { type: "string" },
-                lastName: { type: "number" },
+                lastName: { type: "string" },
                 email: { type: "string" },
                 license: {
                   type: "object",
